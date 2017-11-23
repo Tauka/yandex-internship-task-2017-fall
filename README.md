@@ -2,6 +2,13 @@
 
 It is a source code of front end task from Yandex
 
+### My personal experience details
+
+- Spent about 8-10 hours
+- Fixing for old browsers and phones is pain (some of them do not even support svg)
+- Hardest part: creating a bar which correctly responds to value
+- Favorite css: transform and flex
+
 ### Prerequisites
 
 You have to install sass compiler first
