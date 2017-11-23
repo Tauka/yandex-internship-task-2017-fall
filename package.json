@@ -1,0 +1,19 @@
+{
+  "name": "yandex-progress",
+  "version": "1.0.0",
+  "description": "This is a interview task from Yandex",
+  "main": "bundler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node bundler",
+    "autoprefix": "postcss public/app.css --use autoprefixer -d public/"
+  },
+  "author": "Tauka",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "glob": "^7.1.2",
+    "ncp": "^2.0.0",
+    "postcss-cli": "^4.1.1"
+  }
+}

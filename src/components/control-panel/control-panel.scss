@@ -1,0 +1,16 @@
+.control-panel {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		width: 40%;
+		height: 50%;
+		min-height: 100px;
+	}
+}

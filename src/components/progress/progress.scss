@@ -1,0 +1,49 @@
+.progress {
+	flex-direction: column;
+	display: flex;
+	height: calc(100% - 60px);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	&__title {
+		flex-basis: 5%;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-family: 'Roboto';
+		font-weight: 300;
+
+		@media 
+		(min-width: $media-mobile-sm) {
+			flex-basis: 10%;
+		}
+
+		@media (min-width: $media-mobile-landscape-sm) {
+			flex-basis: 5%;
+		}
+	}
+
+	// mixes
+	&__loader {
+		flex-basis: 50%;
+
+		@media 
+		(min-width: $media-mobile-sm) {
+			flex-basis: 40%;
+		}
+
+		@media (min-width: $media-mobile-landscape-sm) {
+			flex-basis: 50%;
+		}
+
+	}
+
+	&__control-panel {
+		flex-basis: 50%;		
+	}
+
+	@media (min-width: $media-mobile-landscape-sm) {
+		flex-direction: row;
+	}
+}

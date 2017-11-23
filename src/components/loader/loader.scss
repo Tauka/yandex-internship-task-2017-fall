@@ -1,0 +1,41 @@
+.loader {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__bar {
+
+		transform: rotate(0deg) scale(0.9);
+		
+		&_animate {
+			animation: spin 4s linear infinite;	
+		}
+
+		&_hide {
+			visibility: hidden;	
+		}
+		
+
+		// @media 
+		// (min-width: $media-mobile-landscape-sm) and (orientation: portrait),
+		// (min-height: $media-mobile-landscape-sm) and (orientation: landscape) {
+		// 	transform: rotate(0deg) scale(0.8);
+		// }
+
+		// @media 
+		// (min-width: $media-mobile-sm) and (orientation: portrait),
+		// (min-height: $media-mobile-sm) and (orientation: landscape)  {
+		// 	transform: rotate(0deg) scale(1);
+		// }
+
+		// @media 
+		// (min-width: $media-mobile-md) and (orientation: portrait),
+		// (min-height: $media-mobile-md) and (orientation: landscape) {
+		// 	transform: rotate(0deg) scale(1.2);
+		// }
+	}
+}
+
+@keyframes spin { 100% { transform: rotate(360deg) scale(0.9); } }
+

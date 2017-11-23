@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yandex Progress</title>
+	<link rel="stylesheet" type="text/css" href="public/normalize.css">
+	<link rel="stylesheet" type="text/css" href="public/app.css">
+</head>
+<body>
+	<div class="progress">
+		<h2 class="progress__title">
+			Progress
+		</h2>
+		<div class="loader progress__loader">
+			<svg width="200" height="200" class="loader__bar" id="loader-bar">
+				<circle cx="100" cy="100" r="80" stroke="#ededea" stroke-width="9" fill="none"/>
+			  	<path 
+			  		id="loader-arc1"
+			        d="M 100,100 m 0, -80 a 80,80 0 0,1 0,0"
+			        stroke="#ffcc00"
+			        stroke-width="9"
+			        fill="none"
+			  	/>
+		  		<path 
+			  		id="loader-arc2"
+			        d="M 100, 100 m 0, 80 a 80,80 0 0,1 0,0"
+			        stroke="#ffcc00"
+			        stroke-width="9"
+			        fill="none"
+			  	/>
+			</svg>
+		</div>
+
+		<div class="control-panel progress__control-panel">
+			<div class="control-panel__inner">
+				<div class="control-item">
+					<div class="control-item__input-wrapper">
+						<input type="number" min="0" max="100" class="control-item__input" id="js-control-item_value"/>
+					</div>
+					<span class="control-item__label">Value</span>
+				</div>
+				<div class="control-item">
+					<div class="control-item__input-wrapper">
+						<div class="control-item__checkbox">
+							<input type="checkbox" class="control-item__checkbox-input" id="js-control-item_animate"/>
+							<label for="js-control-item_animate" class="control-item__checkbox-label"></label>
+						</div>
+					</div>
+					<span class="control-item__label">Animate</span>
+				</div>
+				<div class="control-item">
+					<div class="control-item__input-wrapper">
+						<div class="control-item__checkbox">
+							<input type="checkbox" class="control-item__checkbox-input" id="js-control-item_hide"/>
+							<label for="js-control-item_hide" class="control-item__checkbox-label"></label>
+						</div>
+					</div>
+					<span class="control-item__label">Hide</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="public/app.js"></script>
+
+</body>
+</html>

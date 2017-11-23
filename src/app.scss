@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'components/progress/progress';
+@import 'components/control-panel/control-panel';
+@import 'components/control-item/control-item';
+@import 'components/loader/loader';
+
+
+html, body {
+	height: 100%;
+}

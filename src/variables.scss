@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Thin-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+$aspect-ratio: 13/9;
+
+// media query breakpoints
+// special mobile media queries
+$media-mobile-sm: 321px;
+$media-mobile-md: 375px;
+$media-mobile-landscape-sm: 450px;
+$media-mobile-landscape-md: 620px;
+$media-mobile-landscape-lg: 720px;
+
+
+
