@@ -1,10 +1,10 @@
 # Yandex Internship Interview Task 2017 Fall
 
-It is a front end task from Yandex
+It is a source code of front end task from Yandex
 
 ### Prerequisites
 
-You have install sass compiler
+You have to install sass compiler
 
 ```
 gem install sass
@@ -12,7 +12,7 @@ gem install sass
 
 Note: you should have ruby gem manager installed
 
-### Installing for Development Environment
+### Installing
 
 Clone this repo and enter it's folder
 
@@ -53,10 +53,10 @@ npm run bundle
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Thanks for stackoverflow guys
+* Thanks to stackoverflow guys
 * Yandex
 * Me
